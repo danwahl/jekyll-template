@@ -1,0 +1,21 @@
+title: Jekyll Template
+author: Dan Wahl
+email: hi@danwahl.net
+description: >-
+  Template for creating Jekyll sites based on a modified minima theme.
+baseurl: "/jekyll-template"
+url: "https://danwahl.net/jekyll-template"
+github_username: danwahl
+
+permalink: /blog/:title
+theme_color: "#339966"
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jemoji
+
+minima:
+  date_format: "%Y-%m-%d"
