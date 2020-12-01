@@ -13,9 +13,12 @@ theme_color: "#339966"
 markdown: kramdown
 theme: minima
 plugins:
+  - github-pages
   - jekyll-feed
   - jekyll-redirect-from
   - jemoji
+
+show_excerpts: true
 
 minima:
   date_format: "%Y-%m-%d"
